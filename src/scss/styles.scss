@@ -1,0 +1,32 @@
+//bootstrap variable
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+//pages
+@import "pages/index";
+@import "pages/login";
+@import "pages/show";
+
+body {
+  //font-family: 'Roboto', sans-serif;
+  background: $black;
+}
+
+.form-control[type="search"]::placeholder {
+  color: lightgray;
+}
+
+.bg-black-transparent {
+  background: rgba($black, 0.8);
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
